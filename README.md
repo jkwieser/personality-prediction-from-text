@@ -21,7 +21,7 @@ The Myers–Briggs Type Indicator (MBTI) is an introspective self-report questio
 
 | _             | Subjective                | Objective                           |
 | ------------- |:-------------:            | --------------------------------:   |
-| Deductive     | **I**ntuition/**S**ensing |    |
+| Deductive     | **I**ntuition/**S**ensing |  **I**ntroversion/**E**xtraversion	|
 | Inductive     | **F**eeling/Thinking      |   **P**erception/**J**udging        |
 
 The combinations as four pairs of preferences lead to 16 possible combinations aka types. The 16 types are typically referred to by an abbreviation of four letters—the initial letters of each of their four type preferences (except in the case of intuition, which uses the abbreviation "N" to distinguish it from introversion). For instance:
@@ -87,7 +87,7 @@ I cannot share the data.
 ### combining MBTI and BIG FIVE data
 MBTI and BIG FIVE data was combined on the corellating traits. therefore the trait "neuroticism" from big five was lost. this explains the weaker results in the trait Neuroticism (NEU)
 
-# repo overview
+# repo overview / how to use
 
 ## if you just want to run with my pretrained models
 1) just work with predict.ipynb and use your own text on the variable "text"
@@ -116,3 +116,5 @@ the class to save various data about the essays required
 | EXT | NEU| AGR | CON | OPN|
 | :-------------:| :--------:   |  :--------:   |  :--------:   | :--------:   |
 |   77.18    | 61.74|  75.51  | 70.34 | 80.39 |
+
+https://github.com/joegog/personality-detection-text/blob/master/docu/predict.PNG?raw=true
