@@ -117,4 +117,4 @@ the class to save various data about the essays required
 | :-------------:| :--------:   |  :--------:   |  :--------:   | :--------:   |
 |   77.18    | 61.74|  75.51  | 70.34 | 80.39 |
 
-https://github.com/joegog/personality-detection-text/blob/master/docu/predict.PNG?raw=true
+![Image](https://github.com/joegog/personality-detection-text/blob/master/docu/predict.PNG?raw=true)
