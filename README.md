@@ -48,8 +48,13 @@ Adrian Furnham 1996 concludes a corellation of his 1996 paper [The big five vers
 - gathering familiarty with machine learning core concepts
 - trying to find an approach to combine MBTI data with BIG FIVE data to increase amount of data to train machine learning classifiers
 
-# Tech overview 
+### Results evaluation
 
+| EXT | NEU| AGR | CON | OPN|
+| :-------------:| :--------:   |  :--------:   |  :--------:   | :--------:   |
+|   77.18    | 61.74|  75.51  | 70.34 | 80.39 |
+
+# Tech overview 
 ## data for training
 ### stream of consciousness essays "data/essays.csv"
 This is the scientific gold standard from psychology, controlled environment collected stream of consciousness by James Pennebaker and Laura King labelled with Big Five personality traits. See: http://web.archive.org/web/20160519045708/http://mypersonality.org/wiki/doku.php?id=wcpr13
@@ -60,8 +65,6 @@ https://www.saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
 
 ### (MBTI) Myers-Briggs Personality Type Dataset "mbti_1.csv"
 From [Kaggle](https://www.kaggle.com/datasnaek/mbti-type): This data was collected through the [PersonalityCafe forum(https://www.personalitycafe.com/forum/), as it provides a large selection of people and their MBTI personality type, as well as what they have written.
-
-
 
 ### scraped data from reddit from "typed_comments.csv"
 Props to Matej Gjurković, and his 2018 paper [Reddit: A Gold Mine for Personality Prediction](https://www.researchgate.net/publication/325445581_Reddit_A_Gold_Mine_for_Personality_Prediction) who provided me his scraped data from personality subreddits, where people show their personality types in the forum and therfore provide labelled text comments and posts.
@@ -111,10 +114,7 @@ MBTI and BIG FIVE data was combined on the corellating traits. therefore the tra
 further info: essay.py
 the class to save various data about the essays required
 
-# Results evaluation
-
-| EXT | NEU| AGR | CON | OPN|
-| :-------------:| :--------:   |  :--------:   |  :--------:   | :--------:   |
-|   77.18    | 61.74|  75.51  | 70.34 | 80.39 |
-
+## predict.ipynb dispay of prediction
 ![Image](https://github.com/joegog/personality-detection-text/blob/master/docu/predict.PNG?raw=true)
+
+
