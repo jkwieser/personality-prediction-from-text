@@ -6,7 +6,8 @@
 - features from text were extracted to vectorize the data with bags of words and GloVe approach
 - several supervised classification learning algorithm were used and trained to predict on future unknown text
 - the results of the classifiers were evaluated
-- a predictor was developed who predicts traits and visualizes them 
+- a predictor was developed who predicts traits and visualizes them:
+
 ![Image](https://github.com/joegog/personality-detection-text/blob/master/docu/predict.PNG?raw=true)
 
 ## Motivation
