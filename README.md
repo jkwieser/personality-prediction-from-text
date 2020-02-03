@@ -1,8 +1,17 @@
 # Personality Prediction from Text
+## Description
+- Data on personality personality was gathered (MBTI and big five) for further information, see below.
+- The situation on the data was evaluated. There is much more MBTI data available which is scientifically less reliant, but there is only very few data on the BIG FIVE traits. Machine Learning algorithms thrive on data so a approach created to combine MBTI and BIG Five data. 
+- The data from three different sources was converted in mutual form and preprocessed to the needs of ML algorithms
+- features from text were extracted to vectorize the data with bags of words and GloVe approach
+- several supervised classification learning algorithm were used and trained to predict on future unknown text
+- the results of the classifiers were evaluated
+- a predictor was developed who predicts traits and visualizes them 
+![Image](https://github.com/joegog/personality-detection-text/blob/master/docu/predict.PNG?raw=true)
 
 ## Motivation
-Inspired by [the paper from sentic.net](https://sentic.net/deep-learning-based-personality-detection.pdf) I chose this topic as an option in a lecture in my ongoing studies at University of applied Sciences Wiener Neustadt, Computer Science, Data Science.  As I spent some time on [Dr. Jordan B. Petersons Personality lectures](https://www.youtube.com/playlist?list=PL22J3VaeABQApSdW8X71Ihe34eKN6XhCi) some understanding was gathered on the BIG FIVE personality model and its applications. As I'm continuously stunned by the complexity of the human psyche, the motivations and desires of human beings I am of course also fascinated by Machine Learning applications, which are nothing else than the pursue to reverse engineer the human brain and discover the yet unknown algoritm of the human brain. 
-So this first machine learning python application marks my start in the huge world of machine learning and artificial intelligence, please be critical :)
+Inspired by [the paper from sentic.net](https://sentic.net/deep-learning-based-personality-detection.pdf) this topic was chosen during  studies at University of applied Sciences Wiener Neustadt, Computer Science, Data Science. Some time was spent on [Dr. Jordan B. Petersons Personality lectures](https://www.youtube.com/playlist?list=PL22J3VaeABQApSdW8X71Ihe34eKN6XhCi) and some understanding was gathered on the BIG FIVE personality model and its applications. As I'm continuously stunned by the complexity of the human psyche, the motivations and desires of human beings I am of course also fascinated by Machine Learning applications, which are nothing else than the pursue to reverse engineer the human brain and discover the yet unknown algoritm of the human brain. 
+So this first machine learning python application marks my start in the huge world of machine learning and artificial intelligence, please be critical.
 
 ## The big five personality model
 The Big Five personality traits, also known as the five-factor model (FFM) and the OCEAN model, is a taxonomy, or grouping, for personality traits.
@@ -48,11 +57,13 @@ Adrian Furnham 1996 concludes a corellation of his 1996 paper [The big five vers
 - gathering familiarty with machine learning core concepts
 - trying to find an approach to combine MBTI data with BIG FIVE data to increase amount of data to train machine learning classifiers
 
-### Results evaluation
+### Results
 
 | EXT | NEU| AGR | CON | OPN|
 | :-------------:| :--------:   |  :--------:   |  :--------:   | :--------:   |
 |   77.18    | 61.74|  75.51  | 70.34 | 80.39 |
+
+for detailed results 
 
 # Tech overview 
 ## data for training
@@ -115,6 +126,5 @@ further info: essay.py
 the class to save various data about the essays required
 
 ## predict.ipynb dispay of prediction
-![Image](https://github.com/joegog/personality-detection-text/blob/master/docu/predict.PNG?raw=true)
 
 
