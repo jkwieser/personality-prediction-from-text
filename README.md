@@ -125,6 +125,4 @@ MBTI and BIG FIVE data was combined on the corellating traits. therefore the tra
 further info: essay.py
 the class to save various data about the essays required
 
-## predict.ipynb dispay of prediction
-
 
