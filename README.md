@@ -1,6 +1,6 @@
 # Personality Prediction from Text
 ## Description
-- Data on personality personality was gathered (MBTI and big five) for further information, see below.
+- Data on personality types was gathered (MBTI and big five) for further information, see below.
 - The situation on the data was evaluated. There is much more MBTI data available which is scientifically less reliant, but there is only very few data on the BIG FIVE traits. Machine Learning algorithms thrive on data so a approach created to combine MBTI and BIG Five data. 
 - The data from three different sources was converted in mutual form and preprocessed to the needs of ML algorithms
 - features from text were extracted to vectorize the data with bags of words and GloVe approach
